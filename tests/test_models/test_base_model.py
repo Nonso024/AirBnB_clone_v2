@@ -9,7 +9,7 @@ import os
 
 
 class test_basemodel(unittest.TestCase):
-    """ """
+    """test class for base_model class"""
 
     def __init__(self, *args, **kwargs):
         """ """
@@ -18,7 +18,7 @@ class test_basemodel(unittest.TestCase):
         self.value = BaseModel
 
     def setUp(self):
-        """ """
+        """the set up methid of the test class"""
         pass
 
     def tearDown(self):
@@ -28,7 +28,7 @@ class test_basemodel(unittest.TestCase):
             pass
 
     def test_default(self):
-        """ """
+        """tests the initialization of the model class."""
         i = self.value()
         self.assertEqual(type(i), self.value)
 
