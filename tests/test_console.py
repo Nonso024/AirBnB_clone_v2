@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-A unit test module for the console (command interpreter).
+"""A unit test module for the console (command interpreter).
 """
 import json
 import MySQLdb
@@ -145,4 +144,4 @@ class TestHBNBCommand(unittest.TestCase):
             clear_stream(cout)
             cons.onecmd('count State')
             cursor.close()
-            dbc.close()usr/bin/python
+            dbc.close()
